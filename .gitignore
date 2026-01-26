@@ -1,15 +1,58 @@
-# Virtual environment
-.venv/
-
-# Python cache
+# =========================
+# Python
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Training logs
+# =========================
+# Virtual environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# =========================
+# TensorBoard & temp
+# =========================
 tensorboard/
+runs/
 
-# Videos (too large for GitHub)
+# =========================
+# Large checkpoints (OPTIONAL)
+# =========================
+# Eğer modelleri göndermek istemezsen aç
+# *.zip
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Ignore all videos by default
+# =========================
 *.mp4
 
-# OS
-.DS_Store
+# =========================
+# BUT allow project evolution videos
+# =========================
+!highway/videos/**/*.mp4
+!merge/videos/**/*.mp4
+!highway/videos/**/
+!merge/videos/**/
+
+# =========================
+# Assets (plots)
+# =========================
+!highway/assets/**/*.png
+!merge/assets/**/*.png
