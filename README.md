@@ -228,7 +228,7 @@ The training curve reveals **three distinct learning phases**:
 
 ### Merge Environment Results
 
-![Reward vs Episode - Highway](hmerge/assets/reward_vs_episode_merge.png)
+![Reward vs Episode - Highway](merge/assets/reward_vs_episode_merge.png)
 
 **Analysis:**
 
