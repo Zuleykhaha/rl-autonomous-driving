@@ -1,5 +1,5 @@
 # =========================
-# Python
+# Python cache
 # =========================
 __pycache__/
 *.pyc
@@ -7,14 +7,14 @@ __pycache__/
 *.pyd
 
 # =========================
-# Virtual environment
+# Virtual environments
 # =========================
 .venv/
 venv/
 env/
 
 # =========================
-# OS / Editor junk
+# OS / Editor files
 # =========================
 .DS_Store
 Thumbs.db
@@ -22,16 +22,10 @@ Thumbs.db
 .vscode/
 
 # =========================
-# TensorBoard & temp
+# TensorBoard & runs
 # =========================
 tensorboard/
 runs/
-
-# =========================
-# Large checkpoints (OPTIONAL)
-# =========================
-# Eğer modelleri göndermek istemezsen aç
-# *.zip
 
 # =========================
 # Logs
@@ -44,7 +38,7 @@ runs/
 *.mp4
 
 # =========================
-# BUT allow project evolution videos
+# Allow evolution videos
 # =========================
 !highway/videos/**/*.mp4
 !merge/videos/**/*.mp4
@@ -52,7 +46,7 @@ runs/
 !merge/videos/**/
 
 # =========================
-# Assets (plots)
+# Allow training plots
 # =========================
 !highway/assets/**/*.png
 !merge/assets/**/*.png
