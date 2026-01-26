@@ -198,7 +198,7 @@ The agent must learn a **Pareto-optimal policy** that achieves maximum sustainab
 
 ### Highway Environment Results
 
-![Reward vs Episode - Highway](highway/assets/reward_vs_episode_highway_final.png)
+![Reward vs Episode - Highway](highway/assets/reward_vs_episode_highway.png)
 
 **Analysis:**
 
@@ -228,7 +228,7 @@ The training curve reveals **three distinct learning phases**:
 
 ### Merge Environment Results
 
-![Reward vs Episode - Merge](merge/assets/reward_vs_episode_merge_full.png)
+![Reward vs Episode - Highway](hmerge/assets/reward_vs_episode_merge.png)
 
 **Analysis:**
 
