@@ -1,0 +1,12 @@
+# Core RL environment
+gymnasium==1.2.3
+highway-env==1.10.2
+
+# Reinforcement Learning
+stable-baselines3[extra]==2.7.1
+
+# Visualization & analysis
+moviepy==2.2.1
+tensorboard==2.20.0
+matplotlib==3.10.8
+pandas==2.3.3
