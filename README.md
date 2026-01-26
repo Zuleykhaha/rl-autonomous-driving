@@ -4,7 +4,7 @@
 
 **Team Members:**  
 - Züleyha Salahova (2104837)  
-- Emin Kay (2261115)  
+- Muhammet Emin Kay (2261115)  
 - Aybüke Pamukçu (2203039)
 
 ---
