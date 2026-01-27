@@ -178,9 +178,7 @@ $$
 
 **Merge Environment Only:**
 
-$$
-R_{\text{right\_lane}} = 0.1 \quad \text{(when successfully merged onto main highway)}
-$$
+Right lane reward (successful merge): 0.1
 
 **Design Rationale:** Encourages the agent to complete the merging maneuver.
 
@@ -481,27 +479,14 @@ Videos will be saved in:
 
 ### 5. Evaluate Trained Agent (Live Visualization)
 
-```python
-import gymnasium as gym
-from stable_baselines3 import PPO
-from highway.config_highway import get_env_config
+Live evaluation and qualitative analysis are performed using the environment-
+specific recording scripts:
 
-# Create environment with rendering
-env = gym.make("highway-fast-v0", render_mode="human", config=get_env_config())
+- `highway/record_highway.py`
+- `merge/record_merge.py`
 
-# Load trained model
-model = PPO.load("highway/models/ppo_full.zip")
-
-# Run evaluation
-obs, _ = env.reset()
-for _ in range(1000):
-    action, _ = model.predict(obs, deterministic=True)
-    obs, reward, terminated, truncated, _ = env.step(action)
-    if terminated or truncated:
-        obs, _ = env.reset()
-
-env.close()
-```
+These scripts load the trained PPO model and either render the environment
+interactively or generate evaluation videos.
 
 ---
 
