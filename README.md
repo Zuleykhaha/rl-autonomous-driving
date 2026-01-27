@@ -609,8 +609,8 @@ Deploy trained policies on real vehicles:
 
 All experiments were conducted using:
 - **Python 3.10**
-- **Stable-Baselines3 2.0**
-- **Highway-Env 1.8.2**
+- **Stable-Baselines3 2.7.1**
+- **Highway-Env 1.10.2**
 - **CPU Training** (Intel Core i5 or equivalent)
 
 Training logs, reward curves, and recorded videos are included in the repository to ensure full transparency and reproducibility.
