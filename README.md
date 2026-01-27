@@ -59,7 +59,7 @@ Each environment demonstrates learning progression through **three distinct stag
 
 ### Highway Evolution Video
 
-![Highway Evolution](highway/videos/evolution.mp4)
+[Highway Evolution](highway/videos/evolution.mp4)
 
 > **Note:** If video doesn't display, download from `highway/videos/evolution.mp4`
 
