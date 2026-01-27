@@ -70,9 +70,9 @@ Each environment demonstrates learning progression through **three distinct stag
 
 ### Merge Evolution Video
 
-![Merge Evolution](merge/videos/evolution__merge.mp4)
+[Merge Evolution](merge/videos/evolution__merge.mp4)
 
-> **Note:** If video doesn't display, download from `merge/videos/evolution.mp4`
+> **Note:** If video doesn't display, download from `merge/videos/evolution_merge.mp4`
 
 **Observations:**
 - **Untrained:** Fails to merge, crashes immediately
