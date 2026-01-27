@@ -615,7 +615,8 @@ All experiments were conducted using:
 
 Training logs, reward curves, and recorded videos are included in the repository to ensure full transparency and reproducibility.
 
-Random seeds are fixed (`seed=42`) for deterministic training.
+Training was initialized with a fixed random seed (`seed=42`).
+Video recordings may use different seeds for qualitative evaluation.
 
 ---
 
