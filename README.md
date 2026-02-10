@@ -3,9 +3,9 @@
 **Course:** CMP4501 – Introduction to Artificial Intelligence and Expert Systems  
 
 **Team Members:**  
-- Züleyha Salahova (2104837)  
-- Muhammet Emin Kay (2261115)  
-- Aybüke Pamukçu (2203039)
+- Züleyha Salahova
+- Muhammet Emin Kay 
+- Aybüke Pamukçu
 
 ---
 
