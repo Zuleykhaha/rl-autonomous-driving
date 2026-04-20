@@ -2,11 +2,6 @@
 
 **Course:** CMP4501 – Introduction to Artificial Intelligence and Expert Systems  
 
-**Team Members:**  
-- Züleyha Salahova
-- Muhammet Emin Kay 
-- Aybüke Pamukçu
-
 ---
 
 ##  Project Objective
